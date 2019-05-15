@@ -56,6 +56,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
+import retrofit2.http.HEAD;
 
 public class UpdateInfoActivity extends BaseActivity<UpdateInfoView, UpdateInfoPresenter> implements UpdateInfoView {
 
@@ -125,12 +126,6 @@ public class UpdateInfoActivity extends BaseActivity<UpdateInfoView, UpdateInfoP
 
     @Override
     protected void initView() {
-
-        String a="aa";
-        String b="bb";
-        String c="cc";
-        String dd="ddddd";
-
         StatusBarUtil.setLightMode(this);
         toolBar.setNavigationIcon(R.mipmap.back_white);
         etInfo.setSelection(etInfo.getText().toString().length());
