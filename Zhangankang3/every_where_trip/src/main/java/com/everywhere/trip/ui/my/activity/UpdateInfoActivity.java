@@ -156,6 +156,9 @@ public class UpdateInfoActivity extends BaseActivity<UpdateInfoView, UpdateInfoP
 
         String ab="zz";
         String c="xx";
+        
+        String vv="vv";
+        String mm="mm";
         if (mType == NICK_TYPE) {
             Toast.makeText(this, "修改成功", Toast.LENGTH_SHORT).show();
             SpUtil.setParam(Constants.USERNAME, etInfo.getText().toString().trim());
