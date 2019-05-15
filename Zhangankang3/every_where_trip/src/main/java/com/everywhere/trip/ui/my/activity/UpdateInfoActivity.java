@@ -154,8 +154,8 @@ public class UpdateInfoActivity extends BaseActivity<UpdateInfoView, UpdateInfoP
     @Override
     public void onSuccess(String msg) {
         
-        int qq=1;
-        int wechat=2;
+        String vv="vv";
+        String mm="mm";
         if (mType == NICK_TYPE) {
             Toast.makeText(this, "修改成功", Toast.LENGTH_SHORT).show();
             SpUtil.setParam(Constants.USERNAME, etInfo.getText().toString().trim());
