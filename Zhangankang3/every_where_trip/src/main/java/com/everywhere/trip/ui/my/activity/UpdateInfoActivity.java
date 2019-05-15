@@ -126,9 +126,9 @@ public class UpdateInfoActivity extends BaseActivity<UpdateInfoView, UpdateInfoP
     @Override
     protected void initView() {
 
-        int a=0;
-        int b=1;
-        int c=3;
+        String a="aa";
+        String b="bb";
+        String c="cc";
         StatusBarUtil.setLightMode(this);
         toolBar.setNavigationIcon(R.mipmap.back_white);
         etInfo.setSelection(etInfo.getText().toString().length());
