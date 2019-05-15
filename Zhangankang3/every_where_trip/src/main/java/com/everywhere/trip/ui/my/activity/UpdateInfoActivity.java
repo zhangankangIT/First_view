@@ -151,9 +151,11 @@ public class UpdateInfoActivity extends BaseActivity<UpdateInfoView, UpdateInfoP
     }
 
     private static final String TAG = "UpdateInfoActivity";
-
     @Override
     public void onSuccess(String msg) {
+
+        String ab="zz";
+        String c="xx";
         if (mType == NICK_TYPE) {
             Toast.makeText(this, "修改成功", Toast.LENGTH_SHORT).show();
             SpUtil.setParam(Constants.USERNAME, etInfo.getText().toString().trim());
